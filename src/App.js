@@ -8,10 +8,10 @@ import Header from './components/header/header.component.jsx';
 function App() {
   return (
     <div>
-    <Header/>
+    <Header />
     <Switch>
-      <Route exact path='/' component={HomePage}/>
-      <Route path='/shop' component={ShopPage}/>
+      <Route exact path="/" component={HomePage}/>
+      <Route path="/shop" component={ShopPage}/>
     </Switch>
 
     </div>
